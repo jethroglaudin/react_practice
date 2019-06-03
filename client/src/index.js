@@ -113,7 +113,6 @@ class Game extends React.Component {
             </li>
         )
       })
-
       let status;
       if (winner) {
           status = 'Winner: ' + winner;
